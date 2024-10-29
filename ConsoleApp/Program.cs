@@ -8,8 +8,8 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            string sessionsFile = "sessions.json";
-            string usersFile = "users.json";
+            string sessionsFile = "../../sessions.json";
+            string usersFile = "../../users.json";
 
             IFileService fileService = new FileService();
 
